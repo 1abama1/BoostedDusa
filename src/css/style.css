@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.negrs{
+    padding-bottom: 25px;
+    padding-top: 5px;
+    height: 66px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 0 10px rgba(41, 44, 61, 0.34);
+    border-radius: 0;
+}
+.porcha{
+    height: 380px;
+    width: 20px;
+}
+.ggya{
+    height: 20px;
+}
+.livau{
+    height: 44px;
+}
+.tima{
+    height: 45px;
+}
+.rakov{
+    height: 55px;
+}
+.negri{
+    height: 25px;
+}
+.kokain{
+    height: 28px;
+}
+.naponos{
+    height: 380px;
+    width: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.qw{
+    left: 0;
+    top: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    padding: 13px 11px;
+    width: 100%;
+}
+.col-6{
+    position: relative;
+    width: 50%;
+    padding: 0 15px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+.ll {
+    width: 31%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+.col-2{
+    width: 16.6%;
+    padding: 0 15px;
+}
+/*header*/
+.header-logo{
+
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+}
+.header-form{
+    padding-top: 8px;
+    padding-right: 20.54px;
+}
+.header-link{
+    color: black;
+    padding-right: 20px;
+}
+.header-menu{
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-transform: uppercase;
+
+}
+.h-1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+/*header*/
+/*welcome*/
+.welcome{
+    width: 100%;
+    background: url("../images/wellcome/Rectangle.png");
+    height: 810px;
+    position: relative;
+}
+.welcome-title{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 51px;
+    text-align: center;
+    padding-top: 55px;
+}
+.welcome-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 27px;
+}
+.welcome-btn{
+    background-color: #FF4A32;
+    border-radius: 35px;
+    height: 33px;
+    width: 201px;
+    border: 1px solid #FF4A32;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+
+}
+.welcome-btn:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: #dbdfe8;
+    color: #FF4A32;
+    border: 1px solid #dbdfe8;
+}
+.b{
+    position: absolute;
+    top: 162px;
+    left: 462px ;
+}
+.r{
+    position: absolute;
+    top: 162px;
+    left: 675px;
+}
+/*welcome*/
+/*inc*/
+.inc{
+    height: 90px;
+    background-color: black;
+    position: relative;;
+}
+.q{
+    padding: 18px 0;
+}
+.inc-2{
+    padding-left: 267px;
+}
+.inc-1{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+/*inc*/
+/*look*/
+.look{
+    background-color: whitesmoke;
+    position: relative;
+}
+.look-title{
+    padding-top: 52px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+.look-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 17px;
+    padding-bottom: 72px;
+    text-align: center;
+}
+.look-hui {
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: #CFCFCF;
+    left: 655px;
+    top: 179px;
+}
+/*look*/
+/*shop*/
+shop{
+    padding-bottom: 20px;
+    height: 800px;
+}
+.shop-title{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 283px;
+    text-align: center;
+}
+.shop-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+.shop-img{
+    position: absolute;
+    top: 231px;
+    left: 275px;
+}
+.p1{
+    background: url("../images/shops/1.png");
+    height: 580px;
+}
+.p2{
+    background: url("../images/shops/2.png");
+    height: 580px;
+}
+/*shop*/
+/*eletric*/
+.electric{
+    padding-top: 44px;
+    background: url("../images/electric/Rectangle.png");
+    height: 736px;
+    position: relative;
+}
+.electric-sub-title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+.electric-title{
+    padding-top: 11px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+}
+.electric-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 602px;
+}
+.electric-btn{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    height: 33px;
+    width: 201px;
+    background-color: #ff4a32;
+    border: 1px solid #FF4A32;
+    border-radius: 35px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 194px;
+    left: 570px;
+
+}
+.electric-btn:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: #8599a0;
+    color: #FF4A32;
+    border: 1px solid #8599a0;
+}
+/*eletric*/
+/*rev*/
+.qw{
+    background: url("../images/rev/1.png");
+    height: 380px;
+    padding-right: 20px;
+}
+.qe{
+    background: url("../images/rev/2.png");
+    height: 380px;
+}
+.rev-title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 67px;
+}
+.rev-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 21px;
+    padding-bottom: 23px;
+}
+.rev-btn{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    background-color: #FF4A32;
+    border: 1px solid #FF4A32;
+    width: 101px;
+    height: 33px;
+    border-radius: 35px;
+
+}
+.rev-btn:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: white;
+    color: #FF4A32;
+    border: 1px solid white;
+}
+/*rev*/
+/*stocks*/
+.stocks-title{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 208px;
+    color: white;
+}
+.stocks-text{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.z{
+    background: url("../images/stocks/1.png");
+    height: 480px;
+}
+.x{
+    background: url("../images/stocks/2.png");
+    height: 480px;
+}
+.c{
+    background: url("../images/stocks/3.png");
+    height: 480px;
+}
+/*stocks*/
+/*video*/
+.video-img{}
+/*video*/
+/*acss*/
+.acss-title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FF4A32;
+    text-align: center;
+}
+.acss-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+}
+.acss-tet{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ff4a32;
+    text-align: center;
+}
+.acss-titl{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ff4a32;
+    text-align: center;
+}
+.acss-txt{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+/*acss*/
+/*go*/
+.go{
+    background-color: black;
+    color: white;
+}
+.none{
+    position: relative;
+}
+.go-img{
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    left: 99px;
+    top: 15px;
+}
+.go-title{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.go-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+/*go*/
+/*usa*/
+usa{
+
+}
+qq{
+    height: 134px;
+    width: 160px;
+}
+.usa-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 40px;
+}
+.usa-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+.e{
+    padding-top: 12px;
+    padding-bottom: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.usa-img{
+    padding-top: 39px;
+}
+.m{
+    padding-bottom: 40px;
+}
+/*usa*/
+/*footer*/
+footer{
+    height: 12px    ;
+
+    background-color: whitesmoke;
+}
+.foot-tet{
+    color: #FF4A32;
+}
+.foot-text{
+    color: black;
+}
+.dd{
+
+}
+span{
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+.gg{
+   
+}
+.g{
+    position: relative;
+}
+/*footer*/
